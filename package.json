@@ -1,0 +1,21 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "Suppose you are running a coffee shop. If you serve using a single counter, it will be hard to manage a lot of people. When there are more customers coming simultaneously, they end up creating longer queues. So in oder to serve, many people at the same time, you can open multiple coffee counters. This is what **x-scaling** of apps means.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loadtest": "loadtest -n 20 http://localhost:3000",
+    "pm2": "pm2 start ./4.pm2/index.js -i 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loadtest": "^5.0.4",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
