@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "loadtest": "^5.0.4",
-    "pm2": "^4.4.0"
+    "pm2": "^5.2.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
